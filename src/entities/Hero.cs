@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Projeto_RPG_DIO
+namespace Projeto_RPG_DIO.src.entities
 {
     public abstract class Hero
     {
-        public Hero(string Name, int Level, string Herotype)
+         public Hero(string Name, int Level, string Herotype)
         {
             this.Name = Name;
             this.Level = Level;
@@ -32,5 +32,4 @@ namespace Projeto_RPG_DIO
             return this.Name+ " Atacou ";
         }
     }
-    
 }
